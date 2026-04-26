@@ -57,15 +57,25 @@ The proposed framework is evaluated on benchmark datasets (CICIDS and UNSW) and 
 
 ---
 
-## 📊 Datasets Used
+## 📊 Datasets
+
+Due to their large size, the datasets used in this project are not included in this repository. They can be downloaded from the official sources below:
 
 ### 🔹 CICIDS Dataset
-- Real-world network traffic dataset
-- Contains various attack types and normal traffic
+- Source: Canadian Institute for Cybersecurity  
+- Link: https://www.unb.ca/cic/datasets/ids-2017.html  
 
 ### 🔹 UNSW-NB15 Dataset
-- Modern intrusion dataset
-- More complex and challenging patterns
+- Source: University of New South Wales  
+- Link: https://research.unsw.edu.au/projects/unsw-nb15-dataset  
+
+After downloading, place the datasets in the following directory structure:
+
+datasets/
+├── CICIDS_MASTER.csv  
+├── UNSW_MASTER.csv  
+
+Make sure the file paths in the code match your local directory setup.
 
 ---
 
